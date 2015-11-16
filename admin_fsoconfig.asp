@@ -1,0 +1,10 @@
+<%
+sysname="À¶ÎÏÅ£ÍøÂç"
+sysversion="1.0.1202"
+starttime=timer()
+ntime=server.urlencode(now())
+selfname=request.servervariables("script_name")
+userip=request.servervariables("remote_addr")
+pagesize=40
+totalpage=1
+%>
